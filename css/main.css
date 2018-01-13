@@ -1,0 +1,27 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+/* Estilo para splash */
+.deglu{
+background-image: url(https://www.okchicas.com/wp-content/uploads/2015/10/personas-que-aman-el-chocolate-15.gif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+
+}
+.logo{
+margin-top: 15%;
+border-radius: 70%;
+box-shadow: 0px 0px 60px rgb(224, 25, 91),0px 0px 80px rgba(256,256,256 ,1);
+}
+.dessert{
+font-family: 'Ranga', cursive;
+font-size: 40px;
+color: rgb(245, 245, 239);
+margin-top:80px;
+text-align: center;
+}
+
