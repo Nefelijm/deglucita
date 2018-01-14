@@ -21,26 +21,38 @@
             <a href="#!" class="brand-logo ">
                 <img class="logo" src="../assets/images/icon.jpg" alt="icon">
             </a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse">
+            <a href="#" data-activates="mobile" class="button-collapse">
                 <i class="material-icons">more_vert</i>
             </a>
             <ul class="right hide-on-med-and-down">
-                <li>
-                    <a href="sass.html">
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored margin-button btn-button" id="btnLogin">
-                            INICIAR SESION
-                        </button>
-                    </a>
+                <li>                  
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored btn-button" id="change1" >
+                        REGISTRATE
+                    </button>
+                   
                 </li>
-                <li>
-                    <a href="sass.html">
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored margin-button btn-button hide" id="btnLogin">
-                            REGISTRATE
-                        </button>
-                    </a>
+                <li>                    
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored btn-button" id="change2">
+                           INICIAR SESION
+                    </button>
+                 
                 </li>
             </ul>
-        </div>
+            <ul class="side-nav nav-movile" id="mobile">
+                <li>
+                    <a href="#">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored btn-button">
+                        REGISTRATE
+                    </button>
+                    </a>
+                </li>
+                <li>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored btn-button">
+                        INICIAR SESION
+                    </button>                
+                </li>
+            </ul>
+       </div>
     </nav>
 
     <div class="container-fluid ">        
@@ -48,9 +60,21 @@
             <div class="col-xs-12 col-md-12 ">
                 <form class="login-background center-block">
                     <div class="form-group margin">
+                        <div id="msj1" ></div>
                         <input type="email" class="form-control" id="textEmail" placeholder="Correo Electronico">
+                        <div id="msj2"></div>
                         <input type="password" class="form-control " id="textPassword" placeholder="Contraseña">
                     </div>
+                    <a href="sass.html">
+                        <button class="mdl-button mdl-js-button   background-btn" disabled id="btnLogin">
+                            Iniciar Sesion
+                        </button>
+                    </a>
+                    <a href="sass.html">
+                        <button class="mdl-button mdl-js-button   background-btn hide" disabled id="btnSign">
+                            Registrate
+                        </button>
+                    </a>
                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent logout hide" id="btnLogout">
                         ACCEDER
                     </button>
