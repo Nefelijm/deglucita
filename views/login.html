@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+     <link rel="stylesheet" href="../vendors/materialize/css/materialize-social.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-pink.min.css" />
+     <link rel="stylesheet" href="../vendors/Bootstrap/css/bootstrap.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Questrial|Ranga" rel="stylesheet">
+     <link rel="stylesheet" href="../css/login.css">
+    <title>login</title>
+</head>
+
+<body class="background">
+    <nav class="nav">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo ">
+                <img class="logo" src="../assets/images/icon.jpg" alt="icon">
+            </a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse">
+                <i class="material-icons">more_vert</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a class="btn-button" href="sass.html">INICIAR SESION</a>
+                </li>
+                <li>
+                    <a class="btn-button" href="badges.html">REGISTRATE</a>
+                </li>
+            </ul>
+            <ul class="side-nav nav-movile" id="mobile-demo">
+                <li>
+                    <a href="sass.html">INICIAR SESION</a>
+                </li>
+                <li>
+                    <a href="badges.html">REGISTRATE</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid ">        
+        <div class="row ">
+            <div class="col-xs-12 col-md-12 ">
+                <form class="login-background center-block">
+                    <div class="form-group margin">
+                        <input type="email" class="form-control" id="textEmail" placeholder="Correo Electronico">
+                        <input type="password" class="form-control" id="textPassword" placeholder="Contraseña">
+                    </div>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored margin-button" id="btnLogin">
+                        LOGIN
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored margin-button" id="btnSign">
+                        SIGN UP
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent logout hide" id="btnLogout">
+                        ACCEDER
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

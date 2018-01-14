@@ -4,16 +4,20 @@ padding:0;
 box-sizing: border-box;
 }
 .images img{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .slider .slides{
-    background-color:  #f73447;
+    background-color:  #e44857;
 }
 .size{
   height:80px;
 }
+.font{
+ font-family: 'Ranga', cursive;
+ font-size: 50px; 
+}
 .nav{
- background-color:  rgb(255, 67, 100);
+ background-color:  rgb(243, 94, 121);
  height:80px;
 }
 .logo{
@@ -26,7 +30,7 @@ box-sizing: border-box;
  margin-left: 0%;
 }
 .btn-button {
- background-color:rgb(67, 126, 98);
+ background-color:rgb(132, 175, 155);
  margin-top:13%;
  margin-left: 8%;
  margin-right: 4%;
@@ -38,7 +42,7 @@ box-sizing: border-box;
 background-color: rgb(132, 175, 155);
 }
 .target{
-  background-color: rgb(67, 126, 98);
+  background-color: rgb(132, 175, 155);
   width: 500px;
   height:250px; 
   margin-left: 30%;
@@ -47,7 +51,12 @@ background-color: rgb(132, 175, 155);
 		top: 400px;
         z-index: 5;
     }
-@media all and (max-width: 320px){
+.introduction {
+  font-size: 20px;
+  font-family: 'Questrial', sans-serif;
+  color: azure;
+}
+@media all and (max-width: 425px){
 .target{
   background-color: rgb(67, 126, 98);
   width: 200px;
@@ -55,7 +64,7 @@ background-color: rgb(132, 175, 155);
   margin-left: 20%;
   border-radius:5%;
   position: absolute;
-		top: 400px;
+		top: 450px;
         z-index: 5;
     }
 }

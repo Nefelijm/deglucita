@@ -1,0 +1,60 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+.background{  
+background-image: url('../assets/images/fondo.gif');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  height: 100vh;
+}
+.deglu{
+background-color:rgb(132, 175, 155); 
+}
+.login-background{
+    border: 3px solid;
+    box-shadow: 10px 10px white, -10px -10px rgb(132, 175, 155), 0px 0px 40px 10px rgb(243, 94, 121); 
+    width: 270px;  
+    height: 350px; 
+    margin-top: 10%;
+    color: white;
+    font-size: 20px;
+}
+.margin{
+margin:10%;
+}
+.logout{
+margin-top: 10%;
+margin-left: 30%;
+}
+.margin-button{
+margin-left:5%;
+}
+
+.nav{
+ background-color:  rgb(243, 94, 121);
+ height:80px;
+}
+.logo{
+ width: 75px;
+ margin-left: 50%;
+ margin-top: 2%;
+ border-radius: 50%;
+}
+.btn{
+ margin-left: 0%;
+}
+.btn-button {
+ background-color:rgb(132, 175, 155);
+ margin-top:13%;
+ margin-left: 8%;
+ margin-right: 4%;
+ font-size: 12px;
+ height: 42px;
+ border-radius: 5%; 
+}
+.nav-movile{
+background-color: rgb(132, 175, 155);
+}
