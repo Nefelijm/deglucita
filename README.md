@@ -29,6 +29,7 @@ _________________________________________________________________________
 2. Entrevista y definimos la problemática
 
 [ENTREVISTA (haciendo click en la foto) Y CONCLUSIONES](https://mariaruizq.github.io/entrevistas/).
+_________________________________________________________________________
 
 ![recursos](assets/images/entrevista.png);
 _________________________________________________________________________
