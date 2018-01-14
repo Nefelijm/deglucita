@@ -13,6 +13,7 @@ background-size: cover;
 .deglu{
 background-color:rgb(132, 175, 155); 
 }
+
 .login-background{
     border: 3px solid;
     box-shadow: 10px 10px white, -10px -10px rgb(132, 175, 155), 0px 0px 40px 10px rgb(243, 94, 121); 
@@ -21,6 +22,13 @@ background-color:rgb(132, 175, 155);
     margin-top: 10%;
     color: white;
     font-size: 20px;
+}
+#textEmail,#textPassword{
+ font-size: 20px;
+ height: 60px;
+ margin-top: 15%;
+
+ 
 }
 .margin{
 margin:10%;
