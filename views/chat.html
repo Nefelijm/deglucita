@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Ranga:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../vendors/Bootstrap/css/Bootstrap.min.css">
+    <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="../assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/chat.css">
+  
+</head>
+
+<body>
+    <!--Movil-->
+    <!--Nav-->
+    <div class="nav-movil container-flex">
+        <div class="row">
+            <div class="col s12 l12 xl12">
+                <div class="left-align">
+                    <a class="col s5 letter-logo" href="">Deglú</a>
+                </div>
+                <div class="col s6 right hide-on-large-only">
+                    <a class="behind btn-nav-movil btn-floating waves-effect waves-light">
+                        <i class="material-icons">home</i>
+                    </a>
+                    <a class="btn-nav-movil btn-floating waves-effect">
+                        <i class="material-icons">mail</i>
+                    </a>
+                    <a class="icon-prolife btn-nav-movil btn-floating waves-effect">
+                        <i class="material-icons">person</i>
+                    </a>
+                </div>
+                <div class="offset-l2 col l2 right hide-on-small-only">
+                    <a class="behind btn-nav-movil btn-floating waves-effect waves-light">
+                        <i class="material-icons">home</i>
+                    </a>
+                    <a class="btn-nav-movil btn-floating waves-effect">
+                        <i class="material-icons">mail</i>
+                    </a>
+                    <a class="icon-prolife btn-nav-movil btn-floating waves-effect">
+                        <i class="material-icons">person</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-comment"></span> Chat
+                        <div class="btn-group pull-right">
+                            <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                <span class="glyphicon glyphicon-chevron-down"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="chat">                   
+                            <li class="right clearfix" id="plantilla">
+                                <span class="chat-img pull-right">
+                                    <img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />
+                                 </span>
+                                <div class="chat-body clearfix">
+                                    <div class="header">
+                                        <small class=" text-muted">
+                                            <span class="glyphicon glyphicon-time Tiempo"></span></small>
+                                        <strong class="pull-right primary-font Nombre">NEFELI</strong>
+                                    </div>
+                                    <p class="Mensaje">  </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="input-group">
+                            <input id="Mensaje" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                            <span class="input-group-btn">
+                                <button class="btn btn-warning btn-sm" id="btn-chat"> Send</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div
+            
+    </div>
+   
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../vendors/Bootstrap/js/Bootstrap.min.js"></script>
+    <script type="text/javascript" src="../vendors/materialize/js/materialize.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script type="text/javascript" src="../js/chat.js"></script>    
+    <script type="text/javascript" src="../js/redireccionando.js"></script>
+</body>
+
+</html>
