@@ -104,8 +104,8 @@ $(document).ready(function () {
 
   $('#btnLogout').on('click', e => {
     e.preventDefault();
-    firebase.auth().signOut();
-    window.location.href = '../views/homepage.html';
+    window.location.href = '../views/perfil.html'
+   
   });
 
   firebase.auth().onAuthStateChanged(firebaseUser => {
@@ -113,9 +113,14 @@ $(document).ready(function () {
     if (firebaseUser) {
       console.log(firebaseUser);
       btnLogout.classList.remove('hide');
+      
     } else {
       console.log('no logueado');
       btnLogout.classList.add('hide');
     }
   });
+
+  $()
+
+
 });
