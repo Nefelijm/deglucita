@@ -4,6 +4,7 @@ $(document).ready(function() {
   var $behind = $('.behind');
   var $behind2 = $('.behind2');
   var $iconProlife = $('.icon-prolife');
+  var $iconChat = $('.icon-chat');
   var $btnReceta = $('.btn-receta');
   var $btnVideos = $('.btn-videos');
   var $btnPhotoRedirecciona = $('.btn-photo-redirecciona');
@@ -33,6 +34,11 @@ $(document).ready(function() {
   $iconProlife.on('click', function(e) {
     $(location).attr('href', 'prolife2.html');
   });
+  // Evento al icon chat, para que redireccione a la vista prolife
+  $iconChat.on('click', function (e) {
+    $(location).attr('href', 'chat.html');
+  });
+
 
   // Evento click del carrusel FOTOS
   $btnPhotoRedirecciona.on('click', function(e) {
