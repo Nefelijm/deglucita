@@ -35,9 +35,15 @@ $(document).ready(function() {
     $(location).attr('href', 'prolife2.html');
   });
   // Evento al icon chat, para que redireccione a la vista prolife
-  $iconChat.on('click', function (e) {
+  $iconChat.on('click', function(e) {
     $(location).attr('href', 'chat.html');
   });
+  // Evento al bnt videos, que me redirecciona a la vista de videos
+  $('.nav-home-deskotp').on('click', function(e) {
+    $(location).attr('href', 'recipe.html');
+  });
+
+
 
 
   // Evento click del carrusel FOTOS
