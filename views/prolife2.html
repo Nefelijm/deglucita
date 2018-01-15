@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Pacifico|Ranga:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../vendors/Bootstrap/css/Bootstrap.min.css">
+    <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="../assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/homepage.css">
+	  <link rel="stylesheet" href="../css/homepage2.css">
+  </head>
+  <body>
+    <!--Nav-->
+    <div class="nav-movil container-flex">
+      <div class="row">
+        <div class="col s12 l12 xl12">
+          <div class="left-align hide-on-small-only">
+            <a class="col s5 letter-logo" href="">Deglú</a>
+          </div>
+          <div class="col s12 right hide-on-large-only">
+            <div class="col s8">
+              <a class="behind btn-nav-movil btn-floating waves-effect waves-light"><i class="material-icons">arrow_back</i></a>
+            </div>
+            <h3 class="col s4 perfil-letter">Perfil</h3>
+          </div>
+          <div class="offset-l2 col l2 right hide-on-small-only">
+            <a class="behind btn-nav-movil btn-floating waves-effect waves-light"><i class="material-icons">home</i></a>
+            <a class="btn-nav-movil btn-floating waves-effect"><i class="material-icons">mail</i></a>
+            <a class="icon-prolife btn-nav-movil btn-floating waves-effect"><i class="material-icons">person</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--perfil foto e información-->
+    <div class="container-flex">
+      <div class="row">
+        <div class="text-center hide-on-large-only content-prolife">
+          <div id="name"></div>
+          <a href="#"><img src="../assets/images/user.png" alt="" class="col s4 img-person-prolife img-person img-circle"></a>
+          <div class="col s7 content-information-total">
+            <div class="information-name content-information"></div>
+            <div class="information-national content-information"></div>
+            <div class="information-specialty content-information"></div>
+            <div class="information-age content-information"></div>
+            <div class="information-studies content-information"></div>
+          </div>
+        </div>
+        <div class="col s12 nav-content hide-on-large-only content-prolife">
+          <ul class="nav nav-tabs">
+            <li class="btn-information li-style waves-effect style-li-prolife-movile" role="presentation" class="active"><a class="li-style" href="#">Información</a></li>
+            <li class="li-style waves-effectstyle-li-prolife-movile" role="presentation"><a class="li-style" href="#">Amigos</a></li>
+            <li class="btn-photo-redirecciona  li-style waves-effect style-li-prolife-movile" role="presentation"><a class="li-style" href="#">Fotos</a></li>
+            <li class="btn-videos li-style waves-effect style-li-prolife-movile" role="presentation"><a class="li-style" href="#">Videos</a></li>
+            <li class="btn-receta li-style waves-effect style-li-prolife-movile btn-receta" role="presentation"><a class="li-style" href="#">Recetas</a></li>
+          </ul>
+        </div>
+        <div class="hide-on-large-only offset-s2 col 8">
+          <div class="row">
+            <div class="input-field col s10">
+              <input class="col 8 input-post form-control input-lg" type="" placeholder="Comparte" data-toggle="modal" data-target="#post">
+            </div>
+          </div>
+          <div class="post-published ">
+            <div class="posit" >
+              <div class="add-post-name text "></div>
+              <div class="add-post-img"></div>
+              <div class="add-post-content text"></div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center hide-on-small-only content-prolife-deskotp">
+          <div id="username"></div>
+          <div id="userEmail"></div>
+          <div id="profilePhoto"></div>          
+          <a href="#"><img src="../assets/images/user.png" alt="" class="offset-l1 col l2 img-person-prolife img-person img-circle"></a>
+          <div class="offset-l2 col l4 content-information-total2">
+            <div class="information-name content-information2"></div>
+            <div class="information-national content-information2"></div>
+            <div class="information-specialty content-information2"></div>
+            <div class="information-age content-information2"></div>
+            <div class="information-studies content-information2"></div>
+          </div>
+        </div>
+        <div class="col l12 hide-on-small-only">
+          <div class="col l4">
+            <ul class="nav-vertical collapsible" data-collapsible="accordion">
+             <li class="nav-home-deskotp">
+               <div class="nav-home-deskotp waves-effect collapsible-header btn-information"><i class="material-icons btn-information">format_color_text</i>Información</div>
+             </li>
+             <li class="btn-photo-redirecciona nav-home-deskotp">
+               <div class="btn-photo-redirecciona nav-home-deskotp waves-effect collapsible-header"><i class="material-icons">collections</i>Fotos</div>
+             </li>
+             <li class="nav-home-deskotp">
+               <div class="btn-videos nav-home-deskotp waves-effect collapsible-header"><i class="material-icons">video_library</i>Videos</div>
+             </li>
+             <li class="nav-home-deskotp">
+               <div class="btn-receta nav-home-deskotp waves-effect collapsible-header"><i class="material-icons">insert_drive_file</i>Recetas</div>
+             </li>
+           </ul>
+         </div>
+         <div class="offset-l1 col l7">
+            <div class="post-published">
+              <div class="posit" >
+                <div class="add-post-name text "></div>
+                <div class="add-post-img"></div>
+                <div class="add-post-content text"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--Modal para realizar un post-->
+    <div class="modal-post modal fade" id="post" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="style-fondo modal-dialog" role="document">
+        <div class="style-fondo modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <ul class="nav nav-tabs">
+              <li role="presentation" class="btn-photo-style active btn-photo"><a href="#">Fotos / Videos</a></li>
+              <li role="presentation" class="btn-recipe-style btn-recipe"><a href="#">Recetas</a></li>
+            </ul>
+          </div>
+          <div class="modal-body">
+            <div class="photo">
+              <form>
+                <div class="form-group">
+                  <label class="form-style" for="exampleInputEmail1">Nombre</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Escribe el nombre de la imágen">
+                </div>
+              </form>
+            </div>
+            <div class="recipe">
+              <form>
+                <div class="form-group">
+                  <label class="form-style" for="exampleInputEmail1">Nombre</label>
+                  <input type="email" class="name-recipe form-control" id="exampleInputEmail1" placeholder="Escribe el nombre de la imágen">
+                </div>
+                <div class="form-group">
+                <div>
+                  <div id="preview2" class="thumbnail preview">
+                    <a href="#" id="file-select" datafile='#file2' datafileinfo='#file-info2' dataimg='#img2' numero='2' class="btn btn-default file-select">Elegir archivo</a>
+                    <img id='img2' src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4="
+                    />
+                  </div>
+                  <input id="file2" class='file' name="{{campo.name}} " type="file" />
+                </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-style" for="exampleInputFile">Receta</label>
+                  <textarea class="textarea form-control" rows="3"></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn-to-post btn btn-primary btn-lg active" disabled>Publicar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script type="text/javascript" src="../vendors/Bootstrap/js/Bootstrap.min.js"></script>
+    <script type="text/javascript" src="../vendors/materialize/js/materialize.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script type="text/javascript" src="../js/homepage2.js"></script>
+    <script type="text/javascript" src="../js/homepage.js"></script>
+    <script type="text/javascript" src="../js/redireccionando.js"></script>
+    <script type="text/javascript" src="../js/prolife.js"></script>
+    <script type="text/javascript" src="../js/login.js"></script>
+  </body>
+</html>

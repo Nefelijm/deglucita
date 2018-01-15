@@ -1,15 +1,14 @@
-$(document).ready(function () {
 
- //Funciones para elegir las resgistrarse o iniciar sesion
-    $('#change1').click(function () {
-      $('#btnSign').removeClass("hide");
-      $('#btnLogin').addClass("hide");
-      
-    });
-  $('#change2').click(function () {
-    $('#btnSign').addClass("hide");
-    $('#btnLogin').removeClass("hide");
 
+$(document).ready(function() {
+  // Funciones para elegir las resgistrarse o iniciar sesion
+  $('#change1').click(function() {
+    $('#btnSign').removeClass('hide');
+    $('#btnLogin').addClass('hide');
+  });
+  $('#change2').click(function() {
+    $('#btnSign').addClass('hide');
+    $('#btnLogin').removeClass('hide');
   });
   // Creando variables booleanas que nos ayudaran 
   var verifyemail = false;
@@ -30,7 +29,7 @@ $(document).ready(function () {
   }      
 
   // Funcion para validar el input de email
-  $('#textEmail').on('input', function () {
+  $('#textEmail').on('input', function() {
     var parameterEmail = new RegExp(/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/); // Expresiones regulares que nos ayudara a validar el email
     if (parameterEmail.test($(this).val()) === false || $(this).val() === '') {
       $('#msj1').text('Ingrese su correo correcto');
@@ -44,7 +43,7 @@ $(document).ready(function () {
   });
 
   // validando el Input de password
-  $('#textPassword').on('input', function (event) {
+  $('#textPassword').on('input', function(event) {
     if ($(this).val().length < 6 || $(this).val() === '') {
       $('#msj2').text('Ingrese una contraseña mayor a 6 digitos');
       desactiveButton();
@@ -86,8 +85,7 @@ $(document).ready(function () {
     var auth = firebase.auth();
     // Hacemos el metodo de identficacion 
     var promise = auth.signInWithEmailAndPassword(emailLogin, passwordLogin);
-    promise.catch(e => console.log(e.message));  
-
+    promise.catch(e => console.log(e.message));
   });
 
   // Evento click para registrar usuario
@@ -99,28 +97,24 @@ $(document).ready(function () {
     // Hacemos el metodo de identficacion 
     var promise = auth.createUserWithEmailAndPassword(emailLogin, passwordLogin);
     promise.catch(e => console.log(e.message));
-  
   });
 
   $('#btnLogout').on('click', e => {
     e.preventDefault();
-    window.location.href = '../views/perfil.html'
-   
+    // window.location.href = '../views/homepage2.html';
   });
 
   firebase.auth().onAuthStateChanged(firebaseUser => {
-
     if (firebaseUser) {
       console.log(firebaseUser);
       btnLogout.classList.remove('hide');
-      
     } else {
       console.log('no logueado');
       btnLogout.classList.add('hide');
     }
   });
 
-  $()
+
 
 
 });

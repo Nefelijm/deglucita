@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  font-family: 'Questrial', sans-serif;
+}
+
+body{
+  background-color: #ECEEED;
+  width: 100%;
+  height: 100vh;
+}
+
+.higher{
+  background-color: #84AF9B;
+  color: #fc9d99;
+  height: 100%;
+}
+
+.logo{
+  color: #fc9d99;
+  font-family: 'Ranga', sans-serif;
+  font-size: 45px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+.search{
+  background-color: gray;
+}
+.icons{
+  color: #fc9d99;
+  margin-top: 20px;
+}
+.perfil{
+  margin-top: 30px;
+}
+
+.style-li-prolife{
+  font-size: 30px;
+  background-color: #fc9d99;
+}
+
+.perfil-letter{
+  font-size: 40px;
+}
+
+.behind{
+  color:#fc9d99;
+  margin-top: 8px;
+ font-size: 50px;
+}
+
+.behind2{
+  color:#fc9d99;
+  margin-top: 8px;
+ font-size: 50px;
+}
+.img-person-prolife{
+  margin-top: 20px;
+}
+
+.style-li-prolife-movile{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.letter-form-movile{
+  color:#fc9d99;
+  margin-top: 7px;
+  font-size: 18px;
+}
+
+.letter-form-input-movile{
+  height: 40px;
+  background-color: gray;
+}
+
+.form-information-movile{
+  margin-top: 20px;
+}
+
+.letter-form{
+  color:red;
+  margin-top: 7px;
+  font-size: 20px;
+}
+
+.letter-form-input{
+  height: 60px;
+  background-color: gray;
+}
+
+.form-information{
+  margin-top: 20px;
+}
