@@ -101,7 +101,7 @@ $(document).ready(function() {
 
   $('#btnLogout').on('click', e => {
     e.preventDefault();
-    // window.location.href = '../views/homepage2.html';
+    window.location.href = '../views/homepage2.html';
   });
 
   firebase.auth().onAuthStateChanged(firebaseUser => {
